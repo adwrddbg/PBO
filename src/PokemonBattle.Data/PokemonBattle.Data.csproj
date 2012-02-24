@@ -79,14 +79,12 @@
     <Compile Include="enums\PokemonState.cs" />
     <Compile Include="enums\Terrain.cs" />
     <Compile Include="enums\Weather.cs" />
-    <Compile Include="IController.cs" />
     <Compile Include="Rom\Item.cs" />
     <Compile Include="Rom\MoveLv7DChange.cs" />
     <Compile Include="Rom\MoveTypeAdvancedFlags.cs" />
     <Compile Include="Text.cs" />
     <Compile Include="Rom\MoveLearnItem.cs" />
     <Compile Include="Rom\RomData.cs" />
-    <Compile Include="Rule.cs" />
     <Compile Include="UserData\DataChangeObserver.cs" />
     <Compile Include="UserData\CollectionInfo.cs" />
     <Compile Include="Utilities\DataIOHelper.cs" />

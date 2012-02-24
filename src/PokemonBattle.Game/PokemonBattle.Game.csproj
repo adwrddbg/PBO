@@ -45,6 +45,7 @@
     <Compile Include="Controller\Action.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\PokemonProxy.cs" />
+    <Compile Include="GameService.cs" />
     <Compile Include="IGame.cs" />
     <Compile Include="Interactive\SimGame.cs" />
     <Compile Include="Interactive\ActionInput.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Models\SixD.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Interactive\Turn.cs" />
+    <Compile Include="Rule.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PokemonBattle.Data\PokemonBattle.Data.csproj">

@@ -8,7 +8,7 @@ using LightStudio.Tactic.DataModels;
 namespace LightStudio.PokemonBattle.Data
 {
   [DataContract(Namespace = Namespaces.DEFAULT)]
-  public class MoveType : ExecutableGameElement<IController>
+  public class MoveType : GameElement
   {
     [DataMember]
     public MoveInnerClass Class { get; private set; }

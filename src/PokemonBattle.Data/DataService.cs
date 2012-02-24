@@ -107,11 +107,6 @@ namespace LightStudio.PokemonBattle.Data
     {
       return romData.GetMoveType(id);
     }
-    public static Rule GetRule(int id)
-    {
-      #warning unfinished
-      return new Rule(id);
-    }
     #endregion
   }
 }

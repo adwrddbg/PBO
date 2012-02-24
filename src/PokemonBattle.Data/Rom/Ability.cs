@@ -8,7 +8,7 @@ using LightStudio.Tactic.DataModels;
 namespace LightStudio.PokemonBattle.Data
 {
   [DataContract(Namespace=Namespaces.DEFAULT)]
-  public class Ability : ExecutableGameElement<IController>
+  public class Ability : GameElement
   {
     public Ability(int id)
       : base(id)

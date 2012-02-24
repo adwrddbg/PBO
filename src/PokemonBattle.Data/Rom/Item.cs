@@ -8,15 +8,15 @@ using LightStudio.Tactic.DataModels;
 namespace LightStudio.PokemonBattle.Data
 {
   [DataContract(Namespace=Namespaces.DEFAULT)]
-  public class Item : ExecutableGameElement<IController>
+  public class Item : GameElement
   {
     [DataMember(EmitDefaultValue = false)]
-    public bool IsOneTime { get; set; }
+    public bool IsOneTime { get; private set; }
 
-    [DataMember(EmitDefaultValue = false)]
-    public int FlingPower { get; set; }
+    [DataMember]
+    public int FlingPower { get; private set; }
 
-    public IExecutableElement<IController> FlingEffect { get; internal set; }
+    //public IExecutableElement<IController> FlingEffect { get; internal set; }
     
     public Item(int id)
       : base(id)

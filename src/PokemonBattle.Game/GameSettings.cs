@@ -18,7 +18,7 @@ namespace LightStudio.PokemonBattle.Game
       s.PPUp = reader.ReadDouble();
       int n = reader.ReadInt32();
       while (n-- > 0)
-        s.AddRule(DataService.GetRule(reader.ReadInt32()));
+        s.AddRule(GameService.GetRule(reader.ReadInt32()));
       s.Lock();
       return s;
     }
